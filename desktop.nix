@@ -18,7 +18,7 @@
   security.polkit.enable = true;
   security.udisk2.enable = true;
 
-  fonts packages = with pkgs; [
+  fonts.packages = with pkgs; [
     jetbrains-mono 
     nerd-fonts.symbols-only
     noto-fonts noto-fonts-color-emoji
