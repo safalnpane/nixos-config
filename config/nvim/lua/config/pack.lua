@@ -9,4 +9,5 @@ pack.add({
   { src = gh('junegunn/fzf.vim') },
   { src = gh('nvim-treesitter/nvim-treesitter') },
   { src = gh('nvim-telescope/telescope.nvim') },
+  { src = gh('ellisonleao/gruvbox.nvim') },
 })

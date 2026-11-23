@@ -6,3 +6,4 @@ require("config.pack")
 require("config.lsp")
 
 require("plugins.nvimtree")
+require("plugins.gruvbox")

@@ -26,6 +26,7 @@
     jetbrains-mono 
     nerd-fonts.symbols-only
     noto-fonts noto-fonts-color-emoji
+    font-awesome
   ];
   fonts.fontconfig.defaultFonts.monospace = [ "JetBrains Mono" ];
 }

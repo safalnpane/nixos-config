@@ -71,13 +71,16 @@ client.focused_inactive #313244 #1e1e2e #cdd6f4 #313244 #313244
 client.unfocused        #313244 #1e1e2e #cdd6f4 #313244 #313244
 
 bar {
-  status_command i3status
+  status_command i3status-rs ~/.config/i3status-rust/config.toml
   position top
   font pango:JetBrains Mono 10
   colors {
-    background #1e1e2e
-    statusline #cdd6f4
-    focused_workspace  #89b4fa #89b4fa #1e1e2e
-    inactive_workspace #1e1e2e #1e1e2e #6c7086
+    background #282828
+    statusline #ebdbb2
+    separator  #504945
+    focused_workspace  #d79921 #d79921 #282828
+    active_workspace   #504945 #504945 #ebdbb2
+    inactive_workspace #282828 #282828 #928374
+    urgent_workspace   #fb4934 #fb4934 #282828
   }
 }

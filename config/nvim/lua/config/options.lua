@@ -43,8 +43,3 @@ vim.diagnostic.config({
     source = true,
   },
 })
-
--- Termfeatures
-local termfeatures = vim.g.termfeatures or {}
-termfeatures.osc52 = false
-vim.g.termfeatures = termfeatures

@@ -12,6 +12,10 @@
       "rev": "5be654f2232c10ddcad19c1607a67b6b4b78fc29",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
+    "gruvbox.nvim": {
+      "rev": "48262cda6a8a921b159c8ec3e21b48ccd870b7b2",
+      "src": "https://github.com/ellisonleao/gruvbox.nvim"
+    },
     "nvim-tree.lua": {
       "rev": "b2aadda94b107480c48e548d6db51c6840b7b33c",
       "src": "https://github.com/nvim-tree/nvim-tree.lua"
