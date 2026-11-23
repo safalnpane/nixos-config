@@ -1,0 +1,5 @@
+vim.lsp.enable('clangd')
+vim.lsp.enable('pyright')
+vim.lsp.enable('ruff')
+vim.lsp.enable('emmylua')
+vim.lsp.enable('gopls')
