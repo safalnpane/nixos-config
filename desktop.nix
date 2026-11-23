@@ -5,6 +5,7 @@
     xkb.layout = "us";
     desktopManager.xterm.enable = false;
     windowManager.i3.enable = true;
+    dpi = 192;
   };
   services.displayManager.defaultSession = "none+i3";
 

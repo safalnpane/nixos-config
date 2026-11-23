@@ -11,10 +11,21 @@ in
     i3status-rust
     xterm
     gh
+    gcc
+    go uv nodejs zig
+    rustc cargo clippy rustfmt rust-analyzer
   ];
 
   xdg.configFile."nvim".source = link "nvim";
   xdg.configFile."ghostty".source = link "ghostty";
   xdg.configFile."i3".source = link "i3";
   xdg.configFile."i3status-rust".source = link "i3status-rust";
+  xresources.properties."Xft.dpi" = 192;
+
+  home.sessionPath = [ "$HOME/.local/bin" "$HOME/go/bin" "$HOME/.cargo/bin" ];
+
+  programs.direnv = {
+    enable = true;
+    nix-direnv.enable = true;
+  };
 }
