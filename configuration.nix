@@ -25,5 +25,6 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   environment.systemPackages = with pkgs; [ git vim ];
   programs.nix-ld.enable = true;
+  nixpkgs.config.allowUnfree = true;
 }
 

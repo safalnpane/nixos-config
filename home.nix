@@ -22,10 +22,15 @@ in
   xdg.configFile."i3status-rust".source = link "i3status-rust";
   xresources.properties."Xft.dpi" = 192;
 
-  home.sessionPath = [ "$HOME/.local/bin" "$HOME/go/bin" "$HOME/.cargo/bin" ];
-
+  programs.bash.enable = true;
   programs.direnv = {
     enable = true;
     nix-direnv.enable = true;
   };
+  programs.claude-code = {
+    enable = true;
+    settings = { theme = "dark"; };
+  };
+
+  home.sessionPath = [ "$HOME/.local/bin" "$HOME/go/bin" "$HOME/.cargo/bin" ];
 }
