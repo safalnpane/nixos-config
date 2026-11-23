@@ -14,4 +14,4 @@ keybind = super+7=goto_tab:7
 keybind = super+8=goto_tab:8
 keybind = super+9=goto_tab:9
 keybind = super+c=copy_to_clipboard
-keybind = super+c=paste_from_clipboard
+keybind = super+v=paste_from_clipboard
