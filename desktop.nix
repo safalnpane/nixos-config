@@ -13,10 +13,14 @@
   services.qemuGuest.enable = true;
 
   # sound, permission prompts, USB mounting
-  services.pipewire = { enable = true; alas.enable = true; pulse.enable = true; };
+  services.pipewire = {
+    enable = true;
+    alsa.enable = true;
+    pulse.enable = true;
+  };
   security.rtkit.enable = true;
   security.polkit.enable = true;
-  security.udisk2.enable = true;
+  services.udisks2.enable = true;
 
   fonts.packages = with pkgs; [
     jetbrains-mono 
