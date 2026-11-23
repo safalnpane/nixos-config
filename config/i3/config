@@ -13,7 +13,7 @@ exec --no-startup-id spice-vdagent
 exec --no-startup-id dunst
 
 bindsym $mod+Return exec ghostty
-bindsym $mod+Shift+Return exec xterm
+bindsym $mod+Shift+Return exec xterm -bg '#1e1e2e' -fg '#cdd6f4' -fa 'JetBrains Mono' -fs 12
 bindsym $mod+d exec --no-startup-id rofi -show drun
 bindsym $mod+Tab exec --no-startup-id rofi -show window
 bindsym $mod+Shift+s exec --no-startup-id flameshot gui
