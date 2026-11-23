@@ -5,8 +5,13 @@ let
 in
 {
   home.stateVersion = "26.05";
-  home.packages = with pkgs; [ ghostty neovim ];
+  home.packages = with pkgs; [
+    ghostty neovim
+    rofi dunst feh flameshot xclip
+    xterm
+  ];
 
   xdg.configFile."nvim".source = link "nvim";
   xdg.configFile."ghostty".source = link "ghostty";
+  xdg.configFile."i3".source = link "i3";
 }
