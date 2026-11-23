@@ -9,6 +9,7 @@ in
     ghostty neovim
     rofi dunst feh flameshot xclip
     xterm
+    gh
   ];
 
   xdg.configFile."nvim".source = link "nvim";
